@@ -92,7 +92,6 @@ class TimerPanel
             }
         }
 		if(!$caller) {
-			Debugger::barDump($bt, 'caller not found');
 			return;
 		}
 
